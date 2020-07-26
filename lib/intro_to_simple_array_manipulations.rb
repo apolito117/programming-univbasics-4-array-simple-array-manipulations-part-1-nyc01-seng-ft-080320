@@ -1,4 +1,4 @@
-require "pry"
+
 
 def using_push(array, string)
   array.push(string)
@@ -9,7 +9,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(continents)
-  binding.pry
+
   puts continents.pop [6]
 end
 
