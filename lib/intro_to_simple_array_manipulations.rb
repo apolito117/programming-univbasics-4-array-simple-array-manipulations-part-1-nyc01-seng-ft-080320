@@ -9,8 +9,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(continents)
-
-  puts continents.pop [6]
+  continents.pop
 end
 
 def pop_with_args (dog_breeds)
